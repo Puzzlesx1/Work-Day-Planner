@@ -1,0 +1,85 @@
+/*Root Styling*/
+:root{
+    --red: rgb(110, 0, 0);
+    --black: black;
+    --dgrey: rgb(75, 75, 75);
+    --font: white;
+}
+
+/*all page styling*/
+body{
+    background-color: var(--dgrey);
+}
+/*Jumbotron Styling*/
+.jumbotron{
+    background-color: var(--black);
+    color: var(--font);
+}
+.display-4{
+    color: var(--font);
+
+}
+
+/*date styling*/
+#date{
+    background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    width: fit-content;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*input styling*/
+.calendar{
+    border: 3px solid var(--red);
+    color: var(--font);
+    width: 1500px;
+    height: 50px;
+}
+.input-align {
+    margin: auto;
+    display: inline-block;
+}
+.time{
+    padding: 4px;
+    font-weight: bold;
+    color: var(--font);
+    margin-left: 50px;
+}
+.btn{
+    position: relative;
+    margin-right: 5%;
+    background-color: var(--red);
+    border: 3px var(--black);
+    color: var(--black);
+}
+.btn:hover{
+    color: var(--font);
+    background-color: rgb(0, 194, 0);
+}
+.btn1{
+    position: relative;
+    margin-left: 50%;
+    background-color: var(--red);
+    border: 3px var(--black);
+    color: var(--black);
+}
+.btn1:hover{
+    color: var(--font);
+    background-color: rgb(0, 194, 0);}
+
+/*background styling for inputs*/
+
+.red{
+    background-color: red;
+}
+.grey{
+    background-color: grey;
+}
+.green{
+    background-color: rgb(0, 194, 0);
+}
+
+/*page break styling*/
+hr{
+    border: 1px solid var(--red);
+}
